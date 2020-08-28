@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-console.log('Aqui!');
+console.log('Aqui!' + JSON.stringify(process.env));
 
 //Define a URL base da origem para consumo do servico
 export default axios.create({
