@@ -1,8 +1,11 @@
 import axios from 'axios';
 
+
+console.log('Aqui!');
+
 //Define a URL base da origem para consumo do servico
 export default axios.create({
-  baseURL: 'http://localhost:8081/',
+  baseURL: `http://${process.env.REACT_APP_HOST_API}:${process.env.REACT_APP_PORT_API}/`,
   headers: {
     'Content-type': 'application/json',
   },
