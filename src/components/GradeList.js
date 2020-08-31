@@ -101,9 +101,9 @@ const GradeList = () => {
             ))}
         </ul>
 
-        {/* <button disabled className="m-3 btn btn-sm btn-danger" onClick={removeAllGrade}>
+        <button disabled className="m-3 btn btn-sm btn-danger" onClick={removeAllGrade}>
           Remove All
-        </button> */}
+        </button>
       </div>
       <div className="col-md-6">
         {currentGrade ? (
